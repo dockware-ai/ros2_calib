@@ -120,7 +120,8 @@ python -m pip install -e .
 
 See [SETUP.md](SETUP.md) for full bring-up instructions on a fresh machine,
 including the system Qt/OpenGL libraries the GUI needs and how to run
-`calibrate.py` and `capture_bag.sh`.
+`calibrate.py` and `capture_bag.sh`. Camera intrinsics from the four-board
+AprilGrid set are covered in [APRILGRID_DETECT.md](APRILGRID_DETECT.md).
 
 ## Quick Start
 

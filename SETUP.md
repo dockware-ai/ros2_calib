@@ -195,6 +195,18 @@ Useful flags:
 
 Run `python calibrate.py --help` for the full list.
 
+### `aprilgrid_detect.py` — intrinsics from the four-board AprilGrid
+
+Same command line and outputs as `calibrate.py`, for the four 8×8 sheets in
+`aprilgrid_23in_8x8/` laid out anywhere in the image:
+
+```bash
+python aprilgrid_detect.py --serial vss_00000041 --zoom path/to/zoom_images --debug-images
+```
+
+See [APRILGRID_DETECT.md](APRILGRID_DETECT.md) for capture tips, flags and how to read
+the debug images.
+
 ### `capture_bag.sh` — record a bag from a sensor suite
 
 Records a short `.mcap` bag from a running sensor-suite container and copies it into
